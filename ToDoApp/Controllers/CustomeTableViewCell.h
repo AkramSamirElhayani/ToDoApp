@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIImageView *imgFile;
 @property (weak, nonatomic) IBOutlet UILabel *NameLable; 
 @property (weak, nonatomic) IBOutlet UILabel *progressLable;
+@property (weak, nonatomic) IBOutlet UILabel *descriptionLable;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -78,6 +78,8 @@
         obj = [_dataSource objectAtIndex:_currentObjectIndex];
     }
     [self loadDataIntoObject:obj];
+    if(_State == Adding)
+    [_homeView addNotficationForObject:obj];
     
     [self.homeView SaveDataIntoFile];
     return YES;

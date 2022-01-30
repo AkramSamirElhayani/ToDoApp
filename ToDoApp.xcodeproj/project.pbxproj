@@ -54,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32AC274327A6A9EF000A9B02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32D1DDD327A6984F00135274 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		32D1DD9727A2D8EC00135274 = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +81,14 @@
 		32D1DDA227A2D8EC00135274 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				32D1DDBC27A2E06F00135274 /* Models */,
+				32AC274327A6A9EF000A9B02 /* Views */,
 				32D1DDBD27A2E07700135274 /* Controllers */,
-				32D1DDBC27A2E06F00135274 /* Classes */,
 				32D1DDA327A2D8EC00135274 /* AppDelegate.h */,
 				32D1DDA427A2D8EC00135274 /* AppDelegate.m */,
 				32D1DDA627A2D8EC00135274 /* SceneDelegate.h */,
 				32D1DDA727A2D8EC00135274 /* SceneDelegate.m */,
 				32D1DDAF27A2D8F200135274 /* Assets.xcassets */,
-				32D1DDD327A6984F00135274 /* Main.storyboard */,
 				32D1DDB127A2D8F200135274 /* LaunchScreen.storyboard */,
 				32D1DDB427A2D8F200135274 /* Info.plist */,
 				32D1DDB527A2D8F200135274 /* main.m */,
@@ -88,13 +96,13 @@
 			path = ToDoApp;
 			sourceTree = "<group>";
 		};
-		32D1DDBC27A2E06F00135274 /* Classes */ = {
+		32D1DDBC27A2E06F00135274 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				32D1DDBE27A2E09200135274 /* ToDoObject.h */,
 				32D1DDBF27A2E09200135274 /* ToDoObject.m */,
 			);
-			path = Classes;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		32D1DDBD27A2E07700135274 /* Controllers */ = {
