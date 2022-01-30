@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		32D1DDA527A2D8EC00135274 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDA427A2D8EC00135274 /* AppDelegate.m */; };
 		32D1DDA827A2D8EC00135274 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDA727A2D8EC00135274 /* SceneDelegate.m */; };
-		32D1DDAB27A2D8EC00135274 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDAA27A2D8EC00135274 /* ViewController.m */; };
-		32D1DDAE27A2D8EC00135274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1DDAC27A2D8EC00135274 /* Main.storyboard */; };
 		32D1DDB027A2D8F200135274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D1DDAF27A2D8F200135274 /* Assets.xcassets */; };
 		32D1DDB327A2D8F200135274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1DDB127A2D8F200135274 /* LaunchScreen.storyboard */; };
 		32D1DDB627A2D8F200135274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDB527A2D8F200135274 /* main.m */; };
+		32D1DDC027A2E09200135274 /* ToDoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDBF27A2E09200135274 /* ToDoObject.m */; };
+		32D1DDC327A2E0AA00135274 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDC227A2E0AA00135274 /* ListTableViewController.m */; };
+		32D1DDC927A2E0EE00135274 /* AddEditObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDC827A2E0EE00135274 /* AddEditObjectViewController.m */; };
+		32D1DDCF27A57ECF00135274 /* CustomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDCE27A57ECF00135274 /* CustomeTableViewCell.m */; };
+		32D1DDD227A60A2100135274 /* ViewOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1DDD127A60A2100135274 /* ViewOptionsViewController.m */; };
+		32D1DDD427A6984F00135274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1DDD327A6984F00135274 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,21 @@
 		32D1DDA427A2D8EC00135274 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		32D1DDA627A2D8EC00135274 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		32D1DDA727A2D8EC00135274 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		32D1DDA927A2D8EC00135274 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32D1DDAA27A2D8EC00135274 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		32D1DDAD27A2D8EC00135274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32D1DDAF27A2D8F200135274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D1DDB227A2D8F200135274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32D1DDB427A2D8F200135274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32D1DDB527A2D8F200135274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32D1DDBE27A2E09200135274 /* ToDoObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoObject.h; sourceTree = "<group>"; };
+		32D1DDBF27A2E09200135274 /* ToDoObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoObject.m; sourceTree = "<group>"; };
+		32D1DDC127A2E0AA00135274 /* ListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		32D1DDC227A2E0AA00135274 /* ListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		32D1DDC727A2E0EE00135274 /* AddEditObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddEditObjectViewController.h; sourceTree = "<group>"; };
+		32D1DDC827A2E0EE00135274 /* AddEditObjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddEditObjectViewController.m; sourceTree = "<group>"; };
+		32D1DDCD27A57ECF00135274 /* CustomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomeTableViewCell.h; sourceTree = "<group>"; };
+		32D1DDCE27A57ECF00135274 /* CustomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeTableViewCell.m; sourceTree = "<group>"; };
+		32D1DDD027A60A2100135274 /* ViewOptionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewOptionsViewController.h; sourceTree = "<group>"; };
+		32D1DDD127A60A2100135274 /* ViewOptionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewOptionsViewController.m; sourceTree = "<group>"; };
+		32D1DDD327A6984F00135274 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +73,43 @@
 		32D1DDA227A2D8EC00135274 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				32D1DDBD27A2E07700135274 /* Controllers */,
+				32D1DDBC27A2E06F00135274 /* Classes */,
 				32D1DDA327A2D8EC00135274 /* AppDelegate.h */,
 				32D1DDA427A2D8EC00135274 /* AppDelegate.m */,
 				32D1DDA627A2D8EC00135274 /* SceneDelegate.h */,
 				32D1DDA727A2D8EC00135274 /* SceneDelegate.m */,
-				32D1DDA927A2D8EC00135274 /* ViewController.h */,
-				32D1DDAA27A2D8EC00135274 /* ViewController.m */,
-				32D1DDAC27A2D8EC00135274 /* Main.storyboard */,
 				32D1DDAF27A2D8F200135274 /* Assets.xcassets */,
+				32D1DDD327A6984F00135274 /* Main.storyboard */,
 				32D1DDB127A2D8F200135274 /* LaunchScreen.storyboard */,
 				32D1DDB427A2D8F200135274 /* Info.plist */,
 				32D1DDB527A2D8F200135274 /* main.m */,
 			);
 			path = ToDoApp;
+			sourceTree = "<group>";
+		};
+		32D1DDBC27A2E06F00135274 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32D1DDBE27A2E09200135274 /* ToDoObject.h */,
+				32D1DDBF27A2E09200135274 /* ToDoObject.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32D1DDBD27A2E07700135274 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32D1DDC127A2E0AA00135274 /* ListTableViewController.h */,
+				32D1DDC227A2E0AA00135274 /* ListTableViewController.m */,
+				32D1DDC727A2E0EE00135274 /* AddEditObjectViewController.h */,
+				32D1DDC827A2E0EE00135274 /* AddEditObjectViewController.m */,
+				32D1DDCD27A57ECF00135274 /* CustomeTableViewCell.h */,
+				32D1DDCE27A57ECF00135274 /* CustomeTableViewCell.m */,
+				32D1DDD027A60A2100135274 /* ViewOptionsViewController.h */,
+				32D1DDD127A60A2100135274 /* ViewOptionsViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +169,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D1DDD427A6984F00135274 /* Main.storyboard in Resources */,
 				32D1DDB327A2D8F200135274 /* LaunchScreen.storyboard in Resources */,
 				32D1DDB027A2D8F200135274 /* Assets.xcassets in Resources */,
-				32D1DDAE27A2D8EC00135274 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +182,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D1DDAB27A2D8EC00135274 /* ViewController.m in Sources */,
+				32D1DDC927A2E0EE00135274 /* AddEditObjectViewController.m in Sources */,
+				32D1DDC027A2E09200135274 /* ToDoObject.m in Sources */,
 				32D1DDA527A2D8EC00135274 /* AppDelegate.m in Sources */,
+				32D1DDCF27A57ECF00135274 /* CustomeTableViewCell.m in Sources */,
+				32D1DDD227A60A2100135274 /* ViewOptionsViewController.m in Sources */,
 				32D1DDB627A2D8F200135274 /* main.m in Sources */,
 				32D1DDA827A2D8EC00135274 /* SceneDelegate.m in Sources */,
+				32D1DDC327A2E0AA00135274 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		32D1DDAC27A2D8EC00135274 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32D1DDAD27A2D8EC00135274 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32D1DDB127A2D8F200135274 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
